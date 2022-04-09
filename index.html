@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="icon" href="assets/img/favicon-32x32.png" type="image/png" sizes="32x32">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Retrô Games Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    Retrô Games
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Candy</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">New</a>
+                        </li>
+
+                        <a href="#" class="button button--ghost">Support</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/Bowser-PNG-Picture.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">The Bowser “BOSS”</h4>
+                                        <span class="home__details-subtitle">I don't know any princess "Peach"</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">The Scariest First BOSS</h3>
+                                    <h1 class="home__title">I <br> LOVE <br> PRICESSES!!</h1>
+                                    <p class="home__description">Hi, I'm Bowser, people call me "kidnapper".
+                                         But at the moment I'm trying to learn something new, building my own bike with parts made only in Malaysia
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://www.minijogos.com.br/jogo/super-mario-all-stars" target="_blank" class="button">Play Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 2 -->
+                        <section class="swiper-slide"> 
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home2-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Sonic</h4>
+                                        <span class="home__details-subtitle">Flash, who are you in the bread line?</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">The fastest</h3>
+                                    <h1 class="home__title">ROBOTNIK<br> I WILL <br> GET YOU!</h1>
+                                    <p class="home__description">I'm sonic, I just got my driver's license.
+                                        I can finally work for "UBER"
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://www.minijogos.com.br/jogo/sonic-chaos-quest" target="_blank" class="button">Play Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- HOME SLIDER 3 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home3-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">RYU</h4>
+                                        <span class="home__details-subtitle">Street Fight veteran</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">The Most Powerful</h3>
+                                    <h1 class="home__title">HADOUKEN<br>SHORYUKEN<br></h1>
+                                    <p class="home__description">You know that giant scar on SAGAT chest?
+                                        it wasn't me who did it! rsrs
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://www.minijogos.com.br/jogo/street-fighter-ii-champion-edition" target="_blank" class="button">Play Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== CATEGORY ====================-->
+            <section class="section category">
+                <h2 class="section__title">Other Classics</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/category1-img.png" alt="" class="category__img">
+                        <h3 class="category__title">Tetris</h3>
+                        <p class="category__description">Ggreat game to pass the time.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category2-img.png" alt="" class="category__img">
+                        <h3 class="category__title">PacMan</h3>
+                        <p class="category__description">Great for playing on the bus.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/category3-img.png" alt="" class="category__img">
+                        <h3 class="category__title">Donkey Kong</h3>
+                        <p class="category__description">Perfect for playing all night.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">About Retrô <br>Games</h2>
+                        <p class="about__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                             when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+                             but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <a href="#" class="button">Know more</a>
+                    </div>
+
+                    <img src="assets/img/about-img.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== TRICK OR TREAT ====================-->
+            <section class="section trick" id="trick">
+                <h2 class="section__title">Bazaar</h2>
+
+                <div class="trick__container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat1-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Life</h3>
+                        <span class="trick__subtitle">I'd rather die than lose my life</span>
+                        <span class="trick__price">$110.99</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat2-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Money</h3>
+                        <span class="trick__subtitle">it makes no sense to buy money</span>
+                        <span class="trick__price">$8.99</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat3-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Surprise Box</h3>
+                        <span class="trick__subtitle">Shall we try our luck?</span>
+                        <span class="trick__price">$15.99</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat4-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Laser Gun</h3>
+                        <span class="trick__subtitle">you never know when you're going to need it</span>
+                        <span class="trick__price">$7.99</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat5-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Meowth</h3>
+                        <span class="trick__subtitle">He is great to talk to</span>
+                        <span class="trick__price">$19.99</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/trick-treat6-img.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Pokeboll</h3>
+                        <span class="trick__subtitle">always good to have one of these</span>
+                        <span class="trick__price">$17.99</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOUNT ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">30% Discount <br> On New Products</h2>
+                    </div>
+
+                    <img src="assets/img/discount-img.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="new">
+                <h2 class="section__title">New Arrivals</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new1-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Bulbasaur</h3>
+                                <span class="new__subtitle">Pokemon</span>
+                                
+                                <div class="new__prices">
+                                    <span class="new__price">$14.99</span>
+                                    <span class="new__discount">$29.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new2-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Squirtle</h3>
+                                <span class="new__subtitle">Pokemon</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$11.99</span>
+                                    <span class="new__discount">$21.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new3-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Flower</h3>
+                                <span class="new__subtitle">Super Mario</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$4.99</span>
+                                    <span class="new__discount">$9.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new4-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Star</h3>
+                                <span class="new__subtitle">Super Mario</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$24.99</span>
+                                    <span class="new__discount">$44.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new5-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Small bomb</h3>
+                                <span class="new__subtitle">Super Mario</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$5.99</span>
+                                    <span class="new__discount">$12.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new6-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Bu</h3>
+                                <span class="new__subtitle">Super mario ghost</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$7.99</span>
+                                    <span class="new__discount">$14.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OUR NEWSLETTER ====================-->
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">Our Newsletter</h2>
+                    <p class="newsletter__description">
+                        Promotion new products and sales. Directly to your inbox
+                    </p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            Retrô Games
+                        </a>
+
+                        <p class="footer__description">Enjoy the best <br> of the classics.</p>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Services</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Discounts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Shipping mode</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Company</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Our mision</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169; RetrôGames. All rigths reserved</span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
